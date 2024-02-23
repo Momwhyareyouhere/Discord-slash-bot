@@ -8,3 +8,15 @@ Ban
 unban
 kick
 roll
+
+# Download
+
+Download the packages:
+```bash
+pip install -r requirements.txt
+```
+
+Run the bot:
+```bash
+python discordbot.py
+```
