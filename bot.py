@@ -7,10 +7,9 @@ s = SlashCommand(bot, sync_commands=True)
 
 @s.slash(name="ping", description="Check the bot's latency.")
 async def _ping(ctx: SlashContext):
-    # Calculate the latency of the bot
-    latency = round(ctx.bot.latency * 1000)  # in milliseconds
 
-    # Respond to the user with the ping information
+    latency = round(ctx.bot.latency * 1000)  
+
     await ctx.send(f"Pong! Latency: {latency}ms")
 
 bot.run("YOUR_BOT_TOKEN")
