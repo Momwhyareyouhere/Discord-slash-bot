@@ -18,5 +18,5 @@ pip install -r requirements.txt
 
 Run the bot:
 ```bash
-python discordbot.py
+python runme.py
 ```
