@@ -7,7 +7,6 @@ THIS IS ON BETA VERSION I AM STILL WORKING ON THIS BOT
 Ban
 unban
 kick
-roll
 
 # Download
 
