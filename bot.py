@@ -1,4 +1,6 @@
 import discord
+from discord import Embed
+from collections import deque
 from discord.ext import commands
 from pyslash import SlashCommand, SlashContext
 import asyncio
@@ -7,7 +9,8 @@ import random
 import os
 import json
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), help_command=None)
 s = SlashCommand(bot, sync_commands=True)
 
 
@@ -146,7 +149,6 @@ async def _kick(ctx: SlashContext, member: discord.Member, reason: str = "No rea
 
 @bot.event
 async def on_ready():
-    os.system('cls' if os.name == 'nt' else 'clear') 
     print(f"Logged in as {bot.user}")
     print(f"Bot ID: {bot.user.id}")
     print(f"Invite Link: https://discord.com/oauth2/authorize?client_id={bot.user.id}&permissions=8&scope=bot+applications.commands")
