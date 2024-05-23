@@ -2,11 +2,11 @@
 
 THIS IS ON BETA VERSION I AM STILL WORKING ON THIS BOT
 
-# Commands that will gonna be comming soon:
+# New comming
 
-Ban
-unban
-kick
+Better gui
+better settings
+and much more
 
 # Download
 
