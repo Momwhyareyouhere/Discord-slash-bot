@@ -4,16 +4,9 @@ THIS IS ON BETA VERSION I AM STILL WORKING ON THIS BOT
 
 # New comming
 
-Better gui
-better settings
-and much more
+NEW UPDATE GUI HAS BEEN REMOVED AND I MADE IT MUCH BETTER
 
 # Download
-
-Download the packages:
-```bash
-pip install -r requirements.txt
-```
 
 Run the bot:
 ```bash
