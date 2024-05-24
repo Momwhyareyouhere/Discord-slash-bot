@@ -10,6 +10,7 @@ NEW UPDATE GUI HAS BEEN REMOVED AND I MADE IT MUCH BETTER THE SCRIPTS
 
 Run the bot:
 ```bash
+cd
 git clone https://github.com/Momwhyareyouhere/Discord-slash-bot.git
 cd Discord-slash-bot
 python runme.py
@@ -17,6 +18,13 @@ python runme.py
 
 # Remove slash commands
 ```bash
+cd
 cd Discord-slash-bot
 python remove.py
+```
+
+# Remove Files
+```bash
+cd
+rm -rf Discord-slash-bot
 ```
