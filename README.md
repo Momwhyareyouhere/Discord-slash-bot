@@ -2,6 +2,8 @@
 
 THIS IS ON BETA VERSION I AM STILL WORKING ON THIS BOT
 
+Heres a example with 24/7 hosting:[Invite Link](https://discord.com/oauth2/authorize?client_id=1243571332835442791&permissions=8&scope=bot+applications.commands)
+
 # NEW UPDATE
 
 NEW UPDATE GUI HAS BEEN REMOVED AND I MADE IT MUCH BETTER THE SCRIPTS
