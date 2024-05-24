@@ -11,5 +11,6 @@ NEW UPDATE GUI HAS BEEN REMOVED AND I MADE IT MUCH BETTER THE SCRIPTS
 Run the bot:
 ```bash
 git clone https://github.com/Momwhyareyouhere/Discord-slash-bot.git
+cd Discord-slash-bot
 python runme.py
 ```
