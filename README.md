@@ -14,3 +14,9 @@ git clone https://github.com/Momwhyareyouhere/Discord-slash-bot.git
 cd Discord-slash-bot
 python runme.py
 ```
+
+# Remove slash commands
+```bash
+cd Discord-slash-bot
+python remove.py
+```
