@@ -2,6 +2,7 @@ import discord
 import asyncio
 import json
 import os
+os.system('cls' if os.name == 'nt' else 'clear') 
 from discord.ext import commands
 
 config_file = 'config.json'
